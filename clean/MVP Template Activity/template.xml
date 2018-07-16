@@ -28,7 +28,7 @@
         type="string"
         constraints="package"
         default="com.mycompany.myapp"
-        help="Specify root folder of project" />
+        help="Specify root folder of project - your ApplicationId" />
 
     <parameter
         id="layoutName"
