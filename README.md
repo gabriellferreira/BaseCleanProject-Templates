@@ -32,7 +32,7 @@ Execute 'mac_install.sh' with adm privileges.
 
 ## List of templates
 
-1. MVP  Clean
+1. MVP  Clean Activity
 	* Activity (/Presentation/View/Activity)
 	* Presenter (/Presentation/View/Presenter)
 	* Contract (/Presentation/View)
