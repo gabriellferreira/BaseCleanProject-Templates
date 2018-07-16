@@ -16,8 +16,8 @@ Execute 'mac_install.sh' with adm privileges.
 
  * Copy clean folder.
  * Go to your Android Studio app, then Contents/plugins/android/lib/templates/other.
- ** Windows -  "C:\Program Files\Android\Android Studio\plugins\android\lib\templates"
- ** Mac - "/Applications/Android Studio.app/Contents/plugins/android/lib/templates"
+   - Windows -  "C:\Program Files\Android\Android Studio\plugins\android\lib\templates"
+   - Mac - "/Applications/Android Studio.app/Contents/plugins/android/lib/templates"
  * Paste it
  * Restart Android Studio if it's running.
 
