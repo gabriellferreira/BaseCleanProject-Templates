@@ -3,8 +3,8 @@
  
     <instantiate from="src/app_package/Contract.kt.ftl"
                    to="${escapeXmlAttribute(srcOut)}/presentation/view/${viewContract}.kt" />
-    <instantiate from="src/app_package/Activity.kt.ftl"
-                   to="${escapeXmlAttribute(srcOut)}/presentation/view/activity/${className}Activity.kt" />
+    <instantiate from="src/app_package/Fragment.kt.ftl"
+                   to="${escapeXmlAttribute(srcOut)}/presentation/view/activity/${className}Fragment.kt" />
     <instantiate from="src/app_package/Presenter.kt.ftl"
                    to="${escapeXmlAttribute(srcOut)}/presentation/view/presenter/${viewPresenter}.kt" />
     
