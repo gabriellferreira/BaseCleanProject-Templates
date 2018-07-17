@@ -17,10 +17,9 @@
         name="Layout Name"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${activityToLayout(activityClass)}"
-        default="activity_main"
-        visibility="generateLayout"
-        help="The name of the layout to create for the activity" />
+        suggest="${activityToLayout(className, 'fragment')}"
+        default="fragment_fullscreen"
+        help="The name of the layout to create for the fragment" />
 
     <parameter
         id="packageName"    
@@ -29,15 +28,6 @@
         constraints="package"
         default="com.mycompany.myapp"
         help="Specify root folder of project - your ApplicationId" />
-
-    <parameter
-        id="layoutName"
-        name="Layout Name"
-        type="string"
-        constraints="layout|unique|nonempty"
-        suggest="${activityToLayout(activityClass, 'fragment')}"
-        default="fragment_fullscreen"
-        help="The name of the layout to create for the fragment" />
 
     <parameter
         id="createViewModel"
