@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import ${packageName}.R
-import ${packageName}.presentation.view.BaconContract
+import ${packageName}.presentation.view.${viewContract}
 import ${packageName}.presentation.view.fragment.BaseFragment
  
 class ${viewFragment} : BaseFragment<${className}Contract.Presenter, ${className}Contract.View>(),
