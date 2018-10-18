@@ -4,7 +4,7 @@ import ${packageName}.data.model.${className}Data
 import ${packageName}.domain.model.${className}
 import javax.inject.Inject
  
-class ${className}DataMapper @Inject constructor() {
+class ${className}Mapper @Inject constructor() {
 
     fun map(data: ${className}Data) =
             ${className}()
