@@ -5,4 +5,4 @@ import ${packageName}.domain.model.${className}
 import ${packageName}.domain.repository.${className}Repository
 import javax.inject.Inject
 
-class ${className}Repository @Inject constructor(private val mapper: ${className}Mapper) : ${className}Repository
+class ${className}DataRepository @Inject constructor(private val mapper: ${className}Mapper) : ${className}Repository
